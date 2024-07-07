@@ -1,10 +1,5 @@
-name = "Mariya"
-print(name)
-print(name[::-2])
-age = 40
-print(age)
-age = 40+1
-print(age)
-name = "is student: True"
-print(name)
-print("Hello" + name)
+homework = 12  #количество выполненных заданий
+hours_spent = 1.5 #количество затраченных часов
+name = 'Курс: Python,' # название курса
+print(hours_spent/homework)
+print(name,'всего задач:', homework,','' затрачено часов:',hours_spent,', среднее время выполнения ', hours_spent/homework,'часа')
