@@ -1,7 +1,8 @@
 my_dict={'Name': 'Mariya', 'Date': 1984}
 print(my_dict)
 print(my_dict['Name'])# вывести одно по существующему ключу
-my_dict['Anton'] = 89197777777#выводим одно по несуществующему в словаре
+print(my_dict.get('Danil'))
+my_dict['Anton'] = 89197777777# новый несуществующий элемент
 print(my_dict)
 my_dict.update({'Name':'Sasha', 'Date': 1986,
                 'Name':'Katy', 'Date': 1985})
